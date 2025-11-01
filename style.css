@@ -16,6 +16,7 @@ header {
     max-height: 70vh;
     overflow: hidden;
     background-color: #000;
+    position: relative;
 }
 
 header img {
@@ -23,6 +24,20 @@ header img {
     height: auto;
     display: block;
     object-fit: cover;
+    object-position: center;
+}
+
+.header-title {
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 4rem;
+    font-weight: 700;
+    color: white;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7), 0 0 20px rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    letter-spacing: 2px;
 }
 
 main {
@@ -95,6 +110,36 @@ article h1 {
     font-weight: 500;
 }
 
+.instrument-list {
+    list-style: none;
+    padding: 0;
+    margin: 1.5rem 0;
+}
+
+.instrument-list li {
+    font-size: 1.1rem;
+    line-height: 2;
+    color: #555;
+    padding: 0.8rem 0;
+    padding-left: 2rem;
+    position: relative;
+    text-align: justify;
+}
+
+.instrument-list li::before {
+    content: "·";
+    position: absolute;
+    left: 0;
+    font-size: 1.5rem;
+    color: #667eea;
+    font-weight: bold;
+}
+
+.instrument-list li strong {
+    color: #2c3e50;
+    font-weight: 600;
+}
+
 .signature {
     margin-top: 3rem;
     padding: 2rem;
@@ -118,6 +163,12 @@ footer {
 @media (max-width: 768px) {
     header {
         max-height: 50vh;
+    }
+    
+    .header-title {
+        font-size: 2.5rem;
+        bottom: 15%;
+        letter-spacing: 1px;
     }
     
     main {
@@ -152,6 +203,10 @@ footer {
         font-size: 1rem;
     }
     
+    .instrument-list li {
+        font-size: 1rem;
+    }
+    
     .signature {
         font-size: 1.1rem;
         padding: 1.5rem;
@@ -161,6 +216,12 @@ footer {
 @media (max-width: 480px) {
     header {
         max-height: 40vh;
+    }
+    
+    .header-title {
+        font-size: 1.8rem;
+        bottom: 10%;
+        letter-spacing: 0.5px;
     }
     
     main {
@@ -194,6 +255,12 @@ footer {
     
     .music-section p {
         font-size: 0.95rem;
+    }
+    
+    .instrument-list li {
+        font-size: 0.95rem;
+        padding: 0.6rem 0;
+        padding-left: 1.5rem;
     }
     
     .signature {
