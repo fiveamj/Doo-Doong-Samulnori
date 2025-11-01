@@ -1,1 +1,3 @@
 # Doo-Doong-Samulnori
+
+Doo-Doong Samulnori is a passionate Korean percussion ensemble based in Dublin, Ireland, dedicated to sharing the vibrant energy and cultural spirit of samulnori with local and international audiences. Founded to bridge Korean traditional music with Irish cultural communities, our ensemble brings together musicians who share a deep appreciation for Korean heritage and a commitment to cultural exchange.
