@@ -31,7 +31,7 @@ header img {
 
 .header-title {
     position: absolute;
-    bottom: 20%;
+    bottom: 10%;
     left: 50%;
     transform: translateX(-50%);
     font-size: 4rem;
@@ -51,9 +51,8 @@ main {
 }
 
 article {
-    margin-top: -60px;
     background: white;
-    padding: 3rem 3rem 2rem 3rem;
+    padding: 1rem 3rem 2rem 3rem;
     position: relative;
     z-index: 1;
 }
@@ -281,8 +280,7 @@ footer {
     }
     
     article {
-        margin-top: -40px;
-        padding: 2rem 2rem 1.5rem 2rem;
+        padding: 1rem 2rem 1.5rem 2rem;
     }
     
     article h1 {
@@ -361,8 +359,7 @@ footer {
     }
     
     article {
-        margin-top: -30px;
-        padding: 1.5rem 1.5rem 1rem 1.5rem;
+        padding: 1rem 1.5rem 1rem 1.5rem;
     }
     
     article h1 {
