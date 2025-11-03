@@ -103,7 +103,7 @@ article h1 {
     font-size: 1.1rem;
     line-height: 1.9;
     color: #555;
-    text-align: justify;
+    text-align: left;
 }
 
 .music-section em {
@@ -172,7 +172,7 @@ article h1 {
     line-height: 1.8;
     color: #555;
     margin-bottom: 2rem;
-    text-align: center;
+    text-align: left;
 }
 
 .videos-grid {
